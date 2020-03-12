@@ -23,7 +23,8 @@ function iLoveTheBeatles(num){
   let i = -1;
 
   function incr(num) {
-     if (num = 17){
+    debugger;
+     if (num == 17){
        return num
      } else {
        return i++;
