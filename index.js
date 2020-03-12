@@ -5,7 +5,6 @@ function theBeatlesPlay(musicians, instruments){
      list[i] = `${musicians[i]} plays ${instruments[i]}`
  }
  return list
-
 }
 
 function johnLennonFacts(){
