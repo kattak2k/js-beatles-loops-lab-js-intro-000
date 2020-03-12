@@ -18,7 +18,17 @@ function johnLennonFacts(arr){
 
 }
 
-function iLoveTheBeatles(){
+function iLoveTheBeatles(num){
+  let list = [];
+  let i = 0;
 
+  function incr() {
+    i = i + 1;
+    return i;
+  }
+
+  do {
+  list.push("I love the Beatles!");  
+  } while (incr() < num)
 
 }
