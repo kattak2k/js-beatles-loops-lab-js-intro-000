@@ -24,8 +24,7 @@ function iLoveTheBeatles(num){
 
   function incr(num) {
      if (num >= 17){
-       i = 17
-       return i
+       return num
      } else {
        i = i + 1;
        return i;
