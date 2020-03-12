@@ -26,8 +26,7 @@ function iLoveTheBeatles(num){
      if (num = 17){
        return num
      } else {
-       i = i + 1;
-       return i;
+       return i++;
      };
   }
 
