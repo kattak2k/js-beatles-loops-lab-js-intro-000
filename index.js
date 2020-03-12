@@ -22,7 +22,7 @@ function iLoveTheBeatles(num){
   let list = [];
   let i = -1;
 
-   num < 15 ? num-- : num
+   num < 15 ? num-- : num;
 
   function incr(num) {
      if (num > 15){
