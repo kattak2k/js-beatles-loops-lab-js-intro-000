@@ -22,12 +22,19 @@ function iLoveTheBeatles(num){
   let list = [];
   let i = 0;
 
-  function incr() {
-    i = i + 1;
-    return i;
+  function incr(num) {
+     if (num >= 17){
+       i = 17
+       return i
+     } else{
+       i = i + 1;
+       return i;
+     }
+
   }
+  
   do {
     list.push("I love the Beatles!");
-  } while (incr() < num);
+  } while (incr(num) < num);
  return list
 }
