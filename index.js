@@ -26,10 +26,10 @@ function iLoveTheBeatles(num){
      if (num >= 17){
        i = 17
        return i
-     } else{
+     } else {
        i = i + 1;
        return i;
-     }
+     };
 
   }
 
