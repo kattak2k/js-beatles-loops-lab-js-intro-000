@@ -20,7 +20,7 @@ function johnLennonFacts(arr){
 
 function iLoveTheBeatles(num){
   let list = [];
-  let i = 0;
+  let i = -1;
 
   function incr(num) {
      if (num = 17){
