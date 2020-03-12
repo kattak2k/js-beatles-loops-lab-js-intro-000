@@ -21,7 +21,7 @@ function johnLennonFacts(arr){
 function iLoveTheBeatles(num){
   let list = [];
   let i = -1;
-
+   
   function incr(num) {
     debugger;
      if (num === 17){
