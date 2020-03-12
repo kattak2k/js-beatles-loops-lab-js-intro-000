@@ -26,7 +26,6 @@ function iLoveTheBeatles(num){
     i = i + 1;
     return i;
   }
-
   do {
     list.push("I love the Beatles!");
   } while (incr() < num);
