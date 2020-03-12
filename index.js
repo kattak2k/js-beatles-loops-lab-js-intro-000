@@ -23,7 +23,6 @@ function iLoveTheBeatles(num){
   let i = -1;
 
   function incr(num) {
-    debugger;
      if (num < 15){
        return num
      } else {
