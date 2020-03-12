@@ -4,8 +4,7 @@ function theBeatlesPlay(musicians, instruments){
  for (i = 0, i <= musicians.length, i++ ) {
      list[i] = `${musicians[i]} plays ${instruments[i]}`
  }
-return list
-
+ return list
 
 }
 
