@@ -14,12 +14,6 @@ function johnLennonFacts(arr){
     list.push(`${arr[i]}!!!`);
      i += 1
   }
-  /*
-
-  for (let i = 0; i < arr.length; i++ ) {
-    list.push(`${arr[i]}!!!`);
-  };
-  */
   return list;
 
 }
